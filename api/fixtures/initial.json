@@ -1,0 +1,48 @@
+[
+	{
+		"model": "api.Location",
+		"pk": 1,
+		"fields": {
+			"street_address": "8024 Calvin Hall Road",
+			"city": "Fort Mill",
+			"state": "SC",
+			"postal_code": 29707,
+			"manager": 1
+		}
+	},
+	{
+		"model": "api.Profile",
+		"pk": 1,
+		"fields": {
+			"first_name": "tyler",
+			"last_name": "niederhuth",
+			"email": "tyler.niederhuth@movement.com",
+			"username": "tyler",
+			"is_staff": true,
+			"is_superuser": true,
+			"password": "pbkdf2_sha256$100000$EGKwrdoTu8mI$jY9GOkLx2PtOXyiNNenRaUzFroebZxyai/8gP7Gu7Mk=",
+			"employee_id": 1234,
+			"branch": 1,
+			"created_on": "2018-06-28 12:55:52.364545",
+			"updated_on": "2018-06-28 12:55:52.364545"
+
+		}
+	},
+	{
+		"model": "api.Profile",
+		"pk": 2,
+		"fields": {
+			"first_name": "doug",
+			"last_name": "schamberg",
+			"username": "doug",
+			"email": "douglas.schamberg@movement.com",
+			"is_superuser": false,
+			"is_staff": false,
+			"password": "pbkdf2_sha256$100000$EGKwrdoTu8mI$jY9GOkLx2PtOXyiNNenRaUzFroebZxyai/8gP7Gu7Mk=",
+			"branch": 1,
+			"employee_id": 4567,
+			"created_on": "2018-06-28 12:55:52.364545",
+			"updated_on": "2018-06-28 12:55:52.364545"
+		}
+	}
+]
