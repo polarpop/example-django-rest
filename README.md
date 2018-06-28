@@ -37,13 +37,13 @@ This is a very simplistic API utilizing django and djangorestframework.
 
 ### Installation
 	Run the following commands
-	`py -m "pip" install virtualenv`
-	`virtualenv myapp`
-	`cd myapp`
-	`Scripts\activate`
-	`pip install django djangorestframework django-cors-headers`
-	`git clone https://github.com/polarpop/example-django-rest example`
-	`cd example`
-	`python manage.py makemigrations`
-	`python manage.py migrate`
-	`python manage.py loaddata initial`
+	py -m "pip" install virtualenv
+	virtualenv myapp
+	cd myapp
+	Scripts\activate
+	pip install django djangorestframework django-cors-headers
+	git clone https://github.com/polarpop/example-django-rest example
+	cd example
+	python manage.py makemigrations
+	python manage.py migrate
+	python manage.py loaddata initial
