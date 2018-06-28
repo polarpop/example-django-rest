@@ -47,3 +47,4 @@ This is a very simplistic API utilizing django and djangorestframework.
 	python manage.py makemigrations
 	python manage.py migrate
 	python manage.py loaddata initial
+	python manage.py runserver
