@@ -35,7 +35,6 @@ class ProfileSerializer(serializers.ModelSerializer):
   https://www.django-rest-framework.org/api-guide/serializers/
 
   '''
-  branch = LocationSerializer()
 
   class Meta:
     model = Profile
